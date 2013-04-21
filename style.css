@@ -6,14 +6,15 @@
 .header {
 		font-family: "adele";
 }
-	.resume {
-		color: white;
-		font-family: "adobegaramondpro";
 
-	}
-	.listspaced li{
-		font-family: "times new roman"; line-height: 40px;
-	}
+.resume {
+	color: white;
+	font-family: "adobegaramondpro";
+}
+
+.listspaced li{
+	font-family: "times new roman"; line-height: 40px;
+}
 
 .container1 {
 	background-color: #212121;
