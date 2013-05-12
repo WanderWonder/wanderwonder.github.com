@@ -1,0 +1,29 @@
+---
+layout: navigation
+---
+
+<div class="container">
+  <div class="header">
+    <h1>{{ page.title }}</h1>
+    <em>Published {{ page.date | date: "%h %d, %Y"}}</em>
+  </div>
+
+  {{ content }}
+
+</div>
+
+<div class="footer">
+  <div class="container">
+    <h6 class="rad-heading">
+      More Reading
+    </h6>
+    <ul class="unstyled">
+      {% for post in site.related_posts limit:3 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }} </a>
+          <i class="pull-right">{{ post.date | date: "%h %Y"}}</i>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
