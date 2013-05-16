@@ -6,6 +6,11 @@ title: Contact
   <h1>Contact</h1>
 </div>
 
-<div class="text-center">
-jessica@example.com
+<div class="text-left">
+jess.l.tackett@gmail.com
 </div>
+
+<div class="text-left">
+	847.612.1171
+	</div>
+	
